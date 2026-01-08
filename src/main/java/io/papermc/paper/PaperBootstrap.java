@@ -268,7 +268,6 @@ public class PaperBootstrap {
         Files.writeString(configFile, json);
         System.out.println("✅ sing-box 配置生成完成");
     }
-
     // ===== 版本检测 =====
     private static String fetchLatestSingBoxVersion() {
         String fallback = "1.12.12";
